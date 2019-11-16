@@ -41,6 +41,12 @@ const yelling = words => {
  * the numbers multiplied by 2
  */
 
+const doubleTrouble = numbers => {
+  return numbers.map(numbers => {
+    return number * 2
+  })
+}
+
 // ...
 
 /*
