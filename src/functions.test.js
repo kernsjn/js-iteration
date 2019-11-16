@@ -26,6 +26,12 @@
  * }
  */
 
+const yelling = words => {
+  return words.map(word => {
+    return word.toUpperCase()
+  })
+}
+
 // ...
 
 /**
